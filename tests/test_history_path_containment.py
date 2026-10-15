@@ -7,7 +7,6 @@ These routes are reachable over HTTP, so that allowed reads (and, through
 refresh-assets, writes) outside the history directory.
 """
 
-import tempfile
 from pathlib import Path
 
 import pytest
